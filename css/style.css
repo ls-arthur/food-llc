@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+
+/* - - - - - HEADER - - - - - */
+#Navbar{
+	background-color: #A0522D;
+	border-radius: 0;
+	border: 0;
+}
+
+.bar-brand h1{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;
+	text-decoration: none;
+	color: #FFFF00;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+
+#lista-menu a{
+	font-size: 1.2em;
+	text-align: center;
+	color: #FFFF00;
+}
+
+#lista-menu a:hover{
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #FFFFff;
+	background-color:#DAA520;
+}
+/* - - - - end HEADER - - - - - */
+
+/* - - - - - BODY - - - - - */
+
+#titulo-menu {
+	font-size: 40px;
+	color: #8B4513;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.item {
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	border: solid;
+	border-radius: 10px;
+	border-color: #A0522D;
+	background-color: #FFEC8B;
+}
+
+
+.item h3 {
+	color: #D2691E;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.item h4 {
+	color: #D2691E;
+	margin: 5px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.item ul, ol {
+	color: #D2691E;
+	font-size: 18px;
+	padding-left: 50px;
+	padding-right: 20px;
+	text-align: justify;
+
+}
+
+.item p {
+	color: #D2691E;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.item a {
+	margin-left: 15px;
+	padding-left: 10px;
+	color: #D2691E;
+	text-align: justify;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.item a:hover {
+	margin-left: 15px;
+	padding: 3px;
+	padding-left: 10px;
+	background-color: #D2691E;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+.item p > a {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #D2691E;
+	text-align: justify;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.item p > a:hover {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #D2691E;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+.receita {
+	float: left;
+	
+}
+
+.topo-pagina {
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+/* - - - - end BODY - - - - */
